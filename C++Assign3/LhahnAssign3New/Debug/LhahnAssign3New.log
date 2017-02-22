@@ -1,0 +1,10 @@
+﻿  Client.cpp
+  assign3.cpp
+  Generating Code...
+Client.obj : error LNK2005: "public: __thiscall PartList::PartList(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0PartList@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in assign3.obj
+Client.obj : error LNK2005: "public: __thiscall PartList::~PartList(void)" (??1PartList@@QAE@XZ) already defined in assign3.obj
+Client.obj : error LNK2005: "public: void __thiscall PartList::addPart(void)" (?addPart@PartList@@QAEXXZ) already defined in assign3.obj
+Client.obj : error LNK2005: "public: void __thiscall PartList::removePart(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?removePart@PartList@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in assign3.obj
+Client.obj : error LNK2005: "public: void __thiscall PartList::showParts(class std::basic_ostream<char,struct std::char_traits<char> > &)const " (?showParts@PartList@@QBEXAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z) already defined in assign3.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+F:\Semester 3\C++\LhahnAssign3New\Debug\LhahnAssign3New.exe : fatal error LNK1120: 1 unresolved externals
